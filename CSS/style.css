@@ -1,0 +1,91 @@
+body {
+    background-color: black;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    color: var(--white);
+}
+
+.container {
+    background: linear-gradient(to bottom, var(--grey-900), var(--grey-950));
+    max-width: 350px;
+    margin: 0px auto;
+    padding: 30px;
+    max-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.container .numberRating {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.container .rating-list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    list-style: none;
+    gap: 1.5rem;
+    padding: 10px 0;
+
+}
+
+.container .rating-list li {
+    background-color: var(--grey-900);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: ease 0.3s;
+}
+
+.container .rating-list li:hover {
+    background-color: var(--white);
+    color: var(--grey-950);
+}
+
+.container .buttonSubmit {
+    background-color: var(--orange);
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+
+    font-size: 16px;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 700;
+    letter-spacing: 2px;
+    transition: ease 0.3s;
+}
+
+.container .buttonSubmit:hover{
+    background-color: var(--white);
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.starTitle{
+    background-color: rgb(47, 56, 74);
+    padding: 20px;
+    border-radius: 30px;
+    
+}
+
+.starTitle img{
+    margin: 0 auto;
+    max-width: 100%;
+    
+}
