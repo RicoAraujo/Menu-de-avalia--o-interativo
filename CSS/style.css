@@ -65,27 +65,69 @@ body {
     transition: ease 0.3s;
 }
 
-.container .buttonSubmit:hover{
+.container .buttonSubmit:hover {
     background-color: var(--white);
 }
 
-.main{
+.main {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    
+
 }
 
-.starTitle{
+.starTitle {
     background-color: rgb(47, 56, 74);
     padding: 20px;
     border-radius: 30px;
-    
+
 }
 
-.starTitle img{
+.starTitle img {
     margin: 0 auto;
     max-width: 100%;
-    
+
+}
+
+
+/* PARTE DE THANK YOU STATE */
+
+.thank-you-state {
+   
+    background: linear-gradient(to bottom, var(--grey-900), var(--grey-950));
+    max-width: 350px;
+    margin: 0px auto;
+    padding: 30px;
+    max-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.thankYouIllustration {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    margin-bottom: 40px;
+}
+
+.selectedRating {
+    text-align: center;
+    margin: 20px;
+    background-color: var(--grey-900);
+    padding: 10px;
+    border-radius: 30px;
+    color: var(--orange)
+}
+
+.thankYouTitle {
+    text-align: center;
+    margin: 20px;
+}
+
+.thankYouText{
+    text-align: center;
+    color: var(--grey-500);
 }
