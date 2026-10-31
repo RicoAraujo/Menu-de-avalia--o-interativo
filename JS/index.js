@@ -4,6 +4,11 @@ ratingList.forEach(item => {
         ratingList.forEach(li => li.classList.remove('active'));
         item.classList.add('active');
     })
+
+    if(item.classList.contains('active')) {
+        item.style.backgroundColor = 'var(--white)';
+        item.style.color = 'var(--grey-950)';
+    }
 })
 
 const buttonSubmit = document.querySelector('.buttonSubmit');

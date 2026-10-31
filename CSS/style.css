@@ -46,9 +46,11 @@ body {
 }
 
 .container .rating-list li:hover {
-    background-color: var(--white);
+    background-color: var(--orange);
     color: var(--grey-950);
 }
+
+
 
 .container .buttonSubmit {
     background-color: var(--orange);
@@ -67,6 +69,12 @@ body {
 
 .container .buttonSubmit:hover {
     background-color: var(--white);
+}
+
+
+.rating-list li.active{
+    background-color: var(--white);
+    color: var(--grey-950);
 }
 
 .main {
@@ -89,6 +97,7 @@ body {
     max-width: 100%;
 
 }
+
 
 
 /* PARTE DE THANK YOU STATE */
