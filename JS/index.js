@@ -10,7 +10,10 @@ const buttonSubmit = document.querySelector('.buttonSubmit');
 buttonSubmit.addEventListener('click', () =>{
     const selectedRating = document.querySelector('.rating-list li.active');
     if(selectedRating) {
-        alert(`You selected ${selectedRating.textContent} out of 5`);
-        
+        document.getElementById('ratingValue').textContent = selectedRating.textContent;
+        document.querySelector('.container').style.display = 'none';
+        document.querySelector('.thank-you-state').style.display = 'flex';
+
     }
 }) 
+
