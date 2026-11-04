@@ -1,0 +1,33 @@
+/* @media screen and (max-width: 550px) {
+    .main .container {
+       padding: 20px;
+        
+        
+        
+        
+    }
+} */
+
+@media screen and (max-width: 400px) {
+    .main .container {
+        padding: 10px;       
+        width: 100%;
+        margin: 15rem;
+    }
+
+    .container .rating-list {
+        gap: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .main .container {
+        padding: 10px;       
+        width: 100%;
+        margin: 15rem;
+    }
+
+    .container .rating-list {
+        gap: 0.4rem;
+    }
+}
