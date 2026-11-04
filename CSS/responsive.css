@@ -1,12 +1,4 @@
-/* @media screen and (max-width: 550px) {
-    .main .container {
-       padding: 20px;
-        
-        
-        
-        
-    }
-} */
+
 
 @media screen and (max-width: 400px) {
     .main .container {
@@ -16,7 +8,7 @@
     }
 
     .container .rating-list {
-        gap: 0.8rem;
+        gap: 0.5rem;
     }
 }
 
@@ -24,7 +16,7 @@
     .main .container {
         padding: 10px;       
         width: 100%;
-        margin: 15rem;
+        margin: 1rem;
     }
 
     .container .rating-list {
