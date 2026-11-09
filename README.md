@@ -2,7 +2,7 @@
 
 Projeto desenvolvido como solução para o desafio [interactive-rating-component-main](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). 
 
-A aplicação apresenta uma página de avaliação no qual possui opção de 1 à 5, feito com todos os estilos de cores, animações e estrtura solicitada.
+A aplicação apresenta uma página de avaliação que possui opções de 1 a 5, feito com todos os estilos de cores, animações e estrutura solicitada.
 
 ## Sumário
 
@@ -12,7 +12,6 @@ A aplicação apresenta uma página de avaliação no qual possui opção de 1 �
 - [Tecnologias](#tecnologias)
 - [Como executar](#como-executar)
 - [O que aprendi](#o-que-aprendi)
-- [Próximos passos](#próximos-passos)
 - [Recursos](#recursos)
 - [Colaboração com IA](#colaboração-com-ia)
 - [Autor](#autor)
@@ -22,7 +21,7 @@ A aplicação apresenta uma página de avaliação no qual possui opção de 1 �
 
 ## Visão geral
 
-O objetivo desse projeto foi criar um menu interativo de avaliação com alternativas entre 1 à 5, escolhendo a alternativa e enviando a respota. Após o envio, colocamos a página de feedback, confirmando o número selecionado e com agradecimentos.
+O objetivo desse projeto foi criar um menu interativo de avaliação com alternativas entre 1 a 5, escolhendo a alternativa e enviando a resposta. Após o envio, colocamos a página de feedback, confirmando o número selecionado e com agradecimentos.
 
 
 ### Captura de tela
@@ -38,7 +37,7 @@ O objetivo desse projeto foi criar um menu interativo de avaliação com alterna
 - ⚡ **Interatividade** - Alternativas a ser escolhidas com animações e efeito de cores.
 - 📱 **Layout responsivo** - Ajustes de layout para diferentes larguras de tela, incluindo dispositivos móveis.
 - 🔗 **Uma resposta por vez** - Escolhe apenas uma opção, no qua é marcada ao ser escolhida
-- ♿ **Feedback** - Uma tela de feedback é mostrada após escolher e enviar a alternativa. A tela mostra a opção que foi escolhida, com uma mensagem de agradecimento.
+- 📣 **Feedback** - Uma tela de feedback é mostrada após escolher e enviar a alternativa. A tela mostra a opção que foi escolhida, com uma mensagem de agradecimento.
 
 
 ## 🛠️ Tecnologias utilizadas
@@ -61,33 +60,30 @@ Abra o arquivo index.html em seu navegador.
 
 ## 🧠 O que aprendi
 
-Nesse projeto aprendi mais sobre seletores e elementos DOM, comando básicos para aparecer página de feedback após o click. 
+Durante o desenvolvimento desse projeto, aprofundei meus conhecimentos em JavaScript, principalmente na manipulação de DOM e no tratamento de eventos e interações do usuário. 
 
-Durante o desenvolvimento, pratiquei:
+Principais conceitos e recursos praticados:
 
-- Seleção de elementos do DOM.
+- Seleção de elementos DOM: Utilização de querySelector, querySelectorAll e getElementById para acessar e manipular elementos HTML
 
-- Uso de eventos para capturar interações do usuário.
+- Manipulação de eventos: Aplicação de addEventListener('click') para capturar e responder às interações do usuário.
 
-- Manipulação de classes CSS com JavaScript.
+- Manipulação de classes CSS: Manipulação dinamica para adicionar, remover e alternar classes.
 
-- Uso de condicionais para controlar o comportamento dos elementos.
+- Estruturas condicionais: aplicação de if para controlar o comportamento dos elementos conforme as interações realizadas.
 
-- Comando para destacar alternativa selecionada .
+- Manipulação de elementos interativos: Implementação da seleção de alternativas, mantendo apenas a opção escolhida visualmente destacada.
 
-Além disso, contei com a ajuda da ferramenta GitHub Copilot como apoio para esclarecer dúvidas e superar dificuldades durante o desenvolvimento, buscando compreender a lógica implementada.
+- Feedback visual: Utilização de JavaScript para controlar a exibição de elementos depois de selecionar uma nota e enviar, e apresentar uma página de feedback após a interação do usuário.
 
-## 👣 Próximos passos
 
--
+Além disso, utilizei o GitHub Copilot como ferramenta de apoio durante o desenvolvimento, auxiliando na resolução de dúvidas e dificuldades, sempre buscando compreender a lógica por trás das implementações.
 
-- 
 
-- Aprimorar a acessibilidade e validar o comportamento da interface em diferentes navegadores.
 
 ## 💻 Recursos
 
-- [Desafio FAQ accordion no Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI)
+- [Desafio Interactive rating component Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI)
 - [MDN: eventos de clique](https://developer.mozilla.org/pt-BR/docs/Web/API/Element/click_event)
 - [MDN: media queries](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_media_queries/Using_media_queries)
 
