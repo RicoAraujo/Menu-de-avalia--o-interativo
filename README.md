@@ -1,107 +1,121 @@
-# Frontend Mentor - Interactive rating component
+# Frontend Mentor - Menu de avaliação interativo
 
-![Design preview for the Interactive rating component coding challenge](./preview.jpg)
+Projeto desenvolvido como solução para o desafio [interactive-rating-component-main](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). 
 
-## Welcome! 👋
+A aplicação apresenta uma página de avaliação no qual possui opção de 1 à 5, feito com todos os estilos de cores, animações e estrtura solicitada.
 
-Thanks for checking out this front-end coding challenge.
+## Sumário
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+- [Visão geral](#visão-geral)
+- [Captura de tela](#captura-de-tela)
+- [Funcionalidades](#funcionalidades)
+- [Tecnologias](#tecnologias)
+- [Como executar](#como-executar)
+- [O que aprendi](#o-que-aprendi)
+- [Próximos passos](#próximos-passos)
+- [Recursos](#recursos)
+- [Colaboração com IA](#colaboração-com-ia)
+- [Autor](#autor)
+- [Objetivo educacional](#objetivo-educacional)
+- [Contribuições](#contribuições)
+- [Agradecimentos](#agradecimentos)
 
-**To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
+## Visão geral
 
-## The challenge
+O objetivo desse projeto foi criar um menu interativo de avaliação com alternativas entre 1 à 5, escolhendo a alternativa e enviando a respota. Após o envio, colocamos a página de feedback, confirmando o número selecionado e com agradecimentos.
 
-Your challenge is to build out this interactive rating component and get it looking as close to the design as possible.
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+### Captura de tela
 
-Your users should be able to:
+![Cartão de avaliação centralizado sobre um fundo escuro, com uma pergunta para avaliar a experiência, opções numeradas de 1 a 5 e o botão Enviar; a interface tem um tom simples e acolhedor.](./design/Tela%20menu%20interativo.png)
 
-- View the optimal layout for the app depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Select and submit a number rating
-- See the "Thank you" card state after submitting a rating
+![Cartão de agradecimento sobre um fundo escuro, confirmando a nota escolhida em uma escala de 1 a 5 e exibindo uma mensagem de agradecimento; a interface transmite um tom cordial e positivo.](./design/Tela%20feedback.png)
 
-### Want some support on the challenge? 
 
-[Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
 
-## Where to find everything
+### ✨ Funcionalidades
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+- ⚡ **Interatividade** - Alternativas a ser escolhidas com animações e efeito de cores.
+- 📱 **Layout responsivo** - Ajustes de layout para diferentes larguras de tela, incluindo dispositivos móveis.
+- 🔗 **Uma resposta por vez** - Escolhe apenas uma opção, no qua é marcada ao ser escolhida
+- ♿ **Feedback** - Uma tela de feedback é mostrada após escolher e enviar a alternativa. A tela mostra a opção que foi escolhida, com uma mensagem de agradecimento.
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
 
-If you would like the Figma design file to gain experience using professional tools and build more accurate projects faster, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+## 🛠️ Tecnologias utilizadas
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+- **HTML5** - Estrutura semântica da página
+- **CSS3** - Estilos com Flexbox, propriedades personalizadas e media queries
+- **JavaScript** - Interação e funcionalidade da página
+- **Responsividade mobile** - Ajustes de tela para Desktop e dispositivos móveis.
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
 
-## Using AI coding assistants
+## 🚀 Como executar
 
-We've included two files to help you if you're using AI coding assistants (like Claude, GitHub Copilot, Cursor, etc.) while working on this challenge:
+Não é necessário instalar dependências.
 
-- `AGENTS.md` - Contains detailed instructions for AI assistants on how to help you with this challenge. It's tailored to this challenge's difficulty level, so the AI will provide guidance appropriate to your learning stage—offering more support for beginner challenges and encouraging more independence on advanced ones.
-- `CLAUDE.md` - A pointer file that directs Claude-based tools to the AGENTS.md instructions.
+Clone este repositório ou faça o download dos arquivos.
 
-**How to use them:** You don't need to do anything! These files are automatically detected by most AI coding tools. The AI will read them and adjust its behavior to be a better learning partner—guiding you toward solutions rather than just giving you the answers.
+Abra a pasta do projeto.
 
-**Note:** These files are designed to help you *learn*, not to do the work for you. The AI is instructed to ask questions, give hints, and explain concepts rather than writing complete solutions.
+Abra o arquivo index.html em seu navegador.
 
-## Building your project
+## 🧠 O que aprendi
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+Nesse projeto aprendi mais sobre seletores e elementos DOM, comando básicos para aparecer página de feedback após o click. 
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+Durante o desenvolvimento, pratiquei:
 
-## Deploying your project
+- Seleção de elementos do DOM.
 
-As mentioned above, there are many ways to host your project for free. Our recommended hosts are:
+- Uso de eventos para capturar interações do usuário.
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+- Manipulação de classes CSS com JavaScript.
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://www.frontendmentor.io/guides/hosting-your-solution).
+- Uso de condicionais para controlar o comportamento dos elementos.
 
-## Create a custom `README.md`
+- Comando para destacar alternativa selecionada .
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+Além disso, contei com a ajuda da ferramenta GitHub Copilot como apoio para esclarecer dúvidas e superar dificuldades durante o desenvolvimento, buscando compreender a lógica implementada.
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+## 👣 Próximos passos
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+-
 
-## Submitting your solution
+- 
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://www.frontendmentor.io/guides/how-to-submit-solutions) for tips on how to do this.
+- Aprimorar a acessibilidade e validar o comportamento da interface em diferentes navegadores.
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
+## 💻 Recursos
 
-## Sharing your solution
+- [Desafio FAQ accordion no Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI)
+- [MDN: eventos de clique](https://developer.mozilla.org/pt-BR/docs/Web/API/Element/click_event)
+- [MDN: media queries](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_media_queries/Using_media_queries)
 
-There are multiple places you can share your solution:
+## 🤖 Colaboração com IA
 
-1. Share your solution page in the **#finished-projects** channel of the [community](https://www.frontendmentor.io/community). 
-2. Share on [X (formerly Twitter)](https://x.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in your post. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on [LinkedIn](https://www.linkedin.com/company/frontend-mentor/).
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
+Este projeto também contou com auxílio de ferramentas de inteligência artificial para apoiar no processo de desenvolvimento, especialmente na resolução de dúvidas de estrutura e estilização.
 
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
+Ferramenta utilizada:
 
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
+- GitHub Copilot
 
-## Got feedback for us?
 
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
+## 👨‍💻 Autor
 
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
+Feito com ❤️ por Ricardo Fernandes
 
-**Have fun building!** 🚀
+- [GitHub](https://github.com/RicoAraujo)
+
+## 📚 Objetivo educacional
+
+Este projeto é baseado em um desafio do Frontend Mentor e foi desenvolvido para fins educacionais.
+
+## 🤝 Contribuições
+Sugestões, melhorias e pull requests são bem-vindos.
+
+
+## Agradecimentos
+
+Obrigado ao Frontend Mentor pelo desafio e pelos designs usados como referência para este projeto.
+
+Se curtiu o projeto, deixe uma ⭐ no repositório!
