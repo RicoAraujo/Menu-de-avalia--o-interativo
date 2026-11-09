@@ -68,7 +68,7 @@ Principais conceitos e recursos praticados:
 
 - Manipulação de eventos: Aplicação de addEventListener('click') para capturar e responder às interações do usuário.
 
-- Manipulação de classes CSS: Manipulação dinamica para adicionar, remover e alternar classes.
+- Manipulação de classes CSS: Manipulação dinâmica para adicionar e remover classes.
 
 - Estruturas condicionais: aplicação de if para controlar o comportamento dos elementos conforme as interações realizadas.
 
