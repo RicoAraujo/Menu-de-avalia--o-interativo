@@ -2,7 +2,7 @@
 
 Projeto desenvolvido como solução para o desafio [interactive-rating-component-main](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). 
 
-A aplicação apresenta uma página de avaliação que possui opções de 1 a 5, feito com todos os estilos de cores, animações e estrutura solicitada.
+A aplicação apresenta uma página de avaliação com opções de 1 a 5, que ao ser escolhido, exibe uma página de feedback.
 
 ## Sumário
 
@@ -36,7 +36,7 @@ O objetivo desse projeto foi criar um menu interativo de avaliação com alterna
 
 - ⚡ **Interatividade** - Alternativas a ser escolhidas com animações e efeito de cores.
 - 📱 **Layout responsivo** - Ajustes de layout para diferentes larguras de tela, incluindo dispositivos móveis.
-- 🔗 **Uma resposta por vez** - Escolhe apenas uma opção, no qua é marcada ao ser escolhida
+- 🔗 **Uma resposta por vez** - Escolhe apenas uma opção, no qual é marcada ao ser escolhida
 - 📣 **Feedback** - Uma tela de feedback é mostrada após escolher e enviar a alternativa. A tela mostra a opção que foi escolhida, com uma mensagem de agradecimento.
 
 
@@ -98,9 +98,10 @@ Ferramenta utilizada:
 
 ## 👨‍💻 Autor
 
-Feito com ❤️ por Ricardo Fernandes
+Feito com ❤️ por Ricardo Fernandes:
 
-- [GitHub](https://github.com/RicoAraujo)
+Perfil GitHub:
+- [Ricardo Fernandes](https://github.com/RicoAraujo)
 
 ## 📚 Objetivo educacional
 
